@@ -9,8 +9,7 @@ set(CLABSOURCE src/main.c
         src/requests/curl.h src/requests/curl_base.c
         src/requests/owm.c src/requests/owm.h
         src/properties.h
-        src/gtk/gtk_callbacks.h
-        src/gtk/mainwindow_callbacks.c src/gtk/settings_callback.c)
+        )
 
 add_executable(simple-weather ${CLABSOURCE})
 
